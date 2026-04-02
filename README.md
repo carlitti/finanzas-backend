@@ -31,6 +31,15 @@ El backend está desarrollado con **Spring Boot** y expone endpoints REST consum
 
 ---
 
+## 🖥 Frontend
+
+El frontend de este proyecto está desarrollado en React.
+
+Repositorio del frontend:
+👉 https://github.com/TU_USUARIO/finanzas-frontend
+
+---
+
 ## ▶️ Ejecución del proyecto
 
 ### Requisitos
