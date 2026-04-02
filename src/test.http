@@ -1,0 +1,31 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "carlos",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:8080/transactions
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "type": "INCOME",
+  "date": "2026-04-01",
+  "userId": 1,
+  "note" : "test"
+}
+
+###
+
+GET http://localhost:8080/transactions
+
+###
+GET http://localhost:8080/transactions/summary
+
+###
+
+GET http://localhost:8080/transactions/summary/1
